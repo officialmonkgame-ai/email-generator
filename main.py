@@ -39,4 +39,5 @@ for i in range(amount):
 with open('emails.txt', 'w') as file:
     file.write('\n'.join(generated))
 
+
 input(f'\x1b[1;32m{os.getlogin()}@GmailGen$ \x1b[1;34mGenerated {len(generated)} Emails! Press ENTER to exit.\x1b[0m')
